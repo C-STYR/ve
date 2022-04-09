@@ -11,7 +11,7 @@ globalStyle("html, body", {
 
 export const vars = createGlobalTheme(':root', {
   color: {
-    brand: 'blue'
+    brand: '#4D699E'
   },
   font: {
     body: 'arial'

@@ -1,5 +1,4 @@
 import { boxStyle } from "./Box.css";
-import { vars } from '../../styles/_app.css'
 
 interface textProps {
   text: string;

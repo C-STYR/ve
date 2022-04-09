@@ -1,12 +1,15 @@
 import type { NextPage } from "next";
 
+import Container from "../components/Container"
 import Box from "../components/Box";
+import MiniBox from "../components/MiniBox";
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <Container>
       <Box text="1" />
-    </div>
+      <MiniBox text="2"/>
+    </Container>
   );
 };
 
