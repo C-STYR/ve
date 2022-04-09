@@ -7,8 +7,9 @@ import MiniBox from "../components/MiniBox";
 const Home: NextPage = () => {
   return (
     <Container>
-      <Box text="1" />
-      <MiniBox text="2"/>
+      <Box text="Box" />
+      <MiniBox text="Mini"/>
+      <MiniBox text="Mini"/>
     </Container>
   );
 };

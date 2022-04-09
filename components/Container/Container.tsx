@@ -1,4 +1,4 @@
-import { flexy, centered } from "./container.css";
+import { flexy, centered } from "./Container.css";
 import cn from "classnames";
 
 interface containerProps {
@@ -6,5 +6,5 @@ interface containerProps {
 }
 
 export const Container = ({ children }: containerProps) => {
-  return <div className={centered}>{children}</div>;
+  return <div className={cn(flexy, centered)}>{children}</div>;
 };

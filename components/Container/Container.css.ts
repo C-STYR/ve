@@ -5,8 +5,8 @@ export const flexy = style({
 });
 
 export const centered = style({
-  display: "flex",
   justifyContent: "center",
   alignItems: "flex-end",
-  border: '1px dotted red',
+  border: "1px dotted purple",
 });
+

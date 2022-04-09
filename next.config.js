@@ -7,7 +7,8 @@ const {
 const withVanillaExtract = createVanillaExtractPlugin()
 
 const nextConfig = {
-  reactStrictMode: true,
+  // reactStrictMode: true,
+  swcMinify: true,
 }
 
 module.exports = withVanillaExtract(nextConfig)
